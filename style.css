@@ -1,0 +1,99 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(135, 212, 243);
+}
+
+.container {
+    background-color: #f0eded;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-500, -500);
+    top: 20%;
+    left: 30%;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 14px rgb(88, 120, 133);
+}
+
+.time {
+    position: relative;
+    width: 92%;
+    background: rgb(179, 231, 247);
+    left: 4%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    box-shadow: 0 0 14px rgb(88, 114, 119);
+}
+
+.time1{
+    position: relative;
+    width: 92%;
+    background: rgb(179, 231, 247);
+    left: 4%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    box-shadow: 0 0 14px rgb(88, 114, 119);
+}
+
+.button {
+    width: 70%;
+    margin: 50px auto 0 auto;
+     display: flex;
+    justify-content: space-around;
+}
+.button button {
+    width: 90px;
+    height: 45px;
+    background-color: rgb(179, 231, 247);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 14px rgb(88, 114, 119);
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button button:hover:nth-last-child(4) {
+    background-color: rgb(255, 220, 66);
+    color: white;
+}
+
+.button button:hover:nth-last-child(3) {
+    background-color: rgb(202, 8, 8);
+    color: white;
+}
+
+.button button:hover:nth-last-child(2) {
+    background-color: rgb(217, 255, 0);
+    color: white;
+}
+
+.button button:hover:nth-last-child(1) {
+    background-color: green;
+    color: white;
+}
+
+.button button:hover {
+    box-shadow: 0 0 20px black;
+}
